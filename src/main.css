@@ -1,0 +1,43 @@
+body {
+    background-color: gray !important;
+}
+
+.parentCls {
+    width: 100%;
+}
+
+.leftCls {
+    float: left;
+    width: 95%;
+}
+
+.clearfix:after {/*伪元素是行内元素 正常浏览器清除浮动方法*/
+    content: "";
+    display: block;
+    height: 0;
+    clear:both;
+    visibility: hidden;
+}
+
+.parentCls .demo3_search {
+    margin-right: 4rem;
+    width: 15rem;
+    margin-bottom: 2rem
+}
+
+.ant-form-item-label {
+    width: 6rem;
+}
+
+.ant-form-item-control-wrapper .ant-input-number {
+    width: 100%;
+}
+
+.ant-form-item-control-wrapper {
+    display: inline-block;
+    width: 75%;
+}
+
+.ant-checkbox-group {
+    display: inline-block;
+}
